@@ -14,7 +14,7 @@ const idMappings = {
   '409E': 2636,
   '871': 429,
   '1146': 721,
-}
+} //create these mappings (associating dbIds and externalIds) for your own model after successful translation by querying and persisting the model properties from Forge's services 
 
 export default function () {
   const [viewerScriptLoaded, setViewerScriptLoaded] = useState(false)
